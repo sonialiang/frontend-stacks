@@ -47,6 +47,8 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## 構築メモ
 
+[tutorials](https://storybook.js.org/tutorials/intro-to-storybook/react/ja/get-started/)
+
 ```
 yarn add @types/styled-components --dev
 yarn add -D tailwindcss twin.macro autoprefixer babel-plugin-macros postcss-cli postcss
