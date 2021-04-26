@@ -1,5 +1,5 @@
-import React from 'react';
 import logo from './logo.svg';
+import { Form as StyledForm } from "./components/Form"
 import './App.css';
 
 function App() {
@@ -19,6 +19,14 @@ function App() {
           Learn React
         </a>
       </header>
+      <StyledForm>
+        <form>
+          <input type="text" placeholder="Full name" />
+          <input type="text" placeholder="Email" />
+          <input type="text" placeholder="Password" />
+          <button>Sign In</button>
+        </form>
+      </StyledForm>
     </div>
   );
 }

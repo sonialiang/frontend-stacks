@@ -44,3 +44,13 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## 構築メモ
+
+```
+yarn add @types/styled-components --dev
+yarn add -D tailwindcss twin.macro autoprefixer babel-plugin-macros postcss-cli postcss
+npx tailwind init src/tailwind.config.js
+touch postcss.config.js
+touch babel.plugin.js
+```
